@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>下载链接获取器</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>下载链接获取器</h1>
+    <div id="keyword-container">
+      <label for="keyword">关键词：</label>
+      <input type="text" id="keyword" readonly>
+    </div>
+    <button id="search-btn">搜索</button>
+    <div id="result-container">
+      <p>下载链接：</p>
+      <input type="text" id="download-link" readonly>
+      <button id="copy-btn">复制链接</button>
+      <a id="download-btn" target="_blank">直接下载</a>
+    </div>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

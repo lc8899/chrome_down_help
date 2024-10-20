@@ -1,0 +1,53 @@
+#download-link-getter {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#download-link-getter.collapsed {
+  width: auto;
+  height: 30px;
+  overflow: hidden;
+}
+
+#download-link-getter h1 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+
+#download-link-getter input,
+#download-link-getter button {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#download-link-getter #download-links {
+  margin-top: 10px;
+}
+
+#download-link-getter #download-links h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+#download-link-getter #status {
+  font-style: italic;
+  margin-top: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+#download-link-getter #clear-btn {
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#keyword-container, #result-container {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+button, a#download-btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 10px;
+  font-style: italic;
+}
